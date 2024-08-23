@@ -1,0 +1,20 @@
+{
+    "scopeName": "source.python.embedded.js",
+    "patterns": [
+      {
+        "begin": "(#\\s*JS\\s*$)([\\s\\S]*?)(?=^\\\"\\\"\\\"|\\Z)",
+        "end": "(\\\"\\\"\\\"$)",
+        "contentName": "source.js",
+        "patterns": [
+          {
+            "include": "source.js"
+          }
+        ]
+      }
+    ],
+    "repository": {},
+    "fileTypes": [],
+    "injectionSelector": "L:text.python",
+    "uuid": "b8e1de70-393b-11e5-a151-feff819cdc9f"
+  }
+  

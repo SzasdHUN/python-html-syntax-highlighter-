@@ -1,0 +1,20 @@
+{
+    "scopeName": "source.python.embedded.css",
+    "patterns": [
+      {
+        "begin": "(#\\s*CSS\\s*$)([\\s\\S]*?)(?=^\\\"\\\"\\\"|\\Z)",
+        "end": "(\\\"\\\"\\\"$)",
+        "contentName": "source.css",
+        "patterns": [
+          {
+            "include": "source.css"
+          }
+        ]
+      }
+    ],
+    "repository": {},
+    "fileTypes": [],
+    "injectionSelector": "L:text.python",
+    "uuid": "a6eea240-393b-11e5-a151-feff819cdc9f"
+  }
+  

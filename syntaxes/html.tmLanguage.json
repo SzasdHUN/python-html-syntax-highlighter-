@@ -1,0 +1,20 @@
+{
+    "scopeName": "source.python.embedded.html",
+    "patterns": [
+      {
+        "begin": "(#\\s*HTML\\s*$)([\\s\\S]*?)(?=^\\\"\\\"\\\"|\\Z)",
+        "end": "(\\\"\\\"\\\"$)",
+        "contentName": "text.html.basic",
+        "patterns": [
+          {
+            "include": "text.html.basic"
+          }
+        ]
+      }
+    ],
+    "repository": {},
+    "fileTypes": [],
+    "injectionSelector": "L:text.python",
+    "uuid": "9e5ee250-393b-11e5-a151-feff819cdc9f"
+  }
+  
